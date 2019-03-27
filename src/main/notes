@@ -1,0 +1,5 @@
+ Lambda Expresion - Passing code as a parameter, have to use an anonymous class
+
+ One can put modifiers on the parameters of a lambda expresion (Final || Annotations)
+
+ Not possible to specify the returned type of a lambda expression
