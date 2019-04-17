@@ -1,5 +1,17 @@
  Lambda Expresion - Passing code as a parameter, have to use an anonymous class
+                  - Instance of a functional interface
 
  One can put modifiers on the parameters of a lambda expresion (Final || Annotations)
 
  Not possible to specify the returned type of a lambda expression
+
+ Functional interface can have 1 abstract methods, but can have multiple default methods
+        -Parameters and return types must be compatible
+        -Methods from the Object class are also allowed
+
+ Java Util Functions
+    - Consumers -consumes an object and does not return anything, takes in <T>
+    - Supplier - provides an object and does not take a parameter
+    - Functions - takes an objects are returns another object(Take in Object person, return Integer age)
+    - Predicates - takes and object and returns a boolean.
+
